@@ -13,6 +13,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Product from "./components/Product";
 import NavBar from "./components/Navbar";
+import Products from "./pages/Products"
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/modal" element={<ModalX/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/register" element={<Register/>}></Route>
+        <Route path="/products" element={<Products/>}></Route>
       </Routes>
       <ToastContainer/>
     </>
