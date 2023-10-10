@@ -75,7 +75,7 @@ const Products = () => {
   }
   const viewHandler=(e)=>{
     e.preventDefault();
-    setShow(true)
+ 
     
   }
 
@@ -96,7 +96,7 @@ const Products = () => {
           })}
         </div>
         <AddProduct showX={show} handleCloseX={handleClose} addProductX={addProduct} handleChangeX={handleChange} />
-        <ViewProductModal showZ={show} prodX={product}/>
+        {/* <ViewProductModal showZ={show} prodX={product}/> */}
         </>
         
       )}

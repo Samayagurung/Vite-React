@@ -5,17 +5,17 @@ import Modal from 'react-bootstrap/Modal';
 
 import Form from 'react-bootstrap/Form';
 
-const ViewProductModal = ({showZ,prodX}) => {
+const ViewProductModal = ({}) => {
  
   return (
-    <Modal show={showZ}  >
+    <Modal  >
     <Form className='p-4'>
       <Form.Group className="mb-3" controlId="formBasicEmail" >
-        <Form.Control name="image" placeholder="Image Link" value={prodX.thumbnail} />
+        <Form.Control name="image" placeholder="Image Link"  />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Control  type="text" name="title" placeholder="Product Title" value={prodX.title}  />
+        <Form.Control  type="text" name="title" placeholder="Product Title"   />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
